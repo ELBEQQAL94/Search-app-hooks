@@ -22,12 +22,18 @@
 .App-link {
   color: #61dafb;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.delete_icon {
+  color: black;
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 17px;
+ font-size: 14px;
 }
+
+.delete_icon:hover{
+  color: red
+}
+
+
